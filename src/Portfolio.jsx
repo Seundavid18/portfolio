@@ -8,6 +8,7 @@ import {FaCss3Alt} from 'react-icons/fa'
 import {FaBootstrap} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
 import {GrReactjs} from 'react-icons/gr'
+import {Link} from 'react-router-dom'
 
 const Portfolio = () => {
     return(
@@ -28,7 +29,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><a href="https://seuntodo.netlify.app" target="blank" className="ms-0" style={{textDecoration: 'none', color: '#fff'}}>Visit site</a></button>
+                            <button type="button" className="btn btn-outline-light2"><Link to="https://seuntodo.netlify.app" target="blank" className="ms-0" style={{textDecoration: 'none'}}>Visit site</Link></button>
                         </div>
                     </div>
                 </div>
@@ -49,7 +50,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><a href="https://seundavidnews.netlify.app" target="blank" style={{textDecoration: 'none', color: '#fff'}}>Visit site</a></button>
+                            <button type="button" class="btn btn-outline-light2"><Link to="https://seundavidnews.netlify.app" target="blank" style={{textDecoration: 'none'}}>Visit site</Link></button>
                         </div>
                     </div>
                 </div>
@@ -70,7 +71,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><a href="https://seunauthapp.netlify.app" target="blank" style={{textDecoration: 'none', color: '#fff'}}>Visit site</a></button>
+                            <button type="button" class="btn btn-outline-light2"><Link to="https://seunauthapp.netlify.app" target="blank" style={{textDecoration: 'none'}}>Visit site</Link></button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +93,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><a href="https://www.tocprofessionals.com" target="blank" style={{textDecoration: 'none', color: '#fff'}}>Visit site</a></button>
+                            <button type="button" class="btn btn-outline-light2"><Link to="https://www.tocprofessionals.com" target="blank" style={{textDecoration: 'none'}}>Visit site</Link></button>
                         </div>
                     </div>
                 </div>
