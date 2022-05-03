@@ -50,7 +50,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><Link to="https://seundavidnews.netlify.app" target="blank" style={{textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Visit site</Link></button>
+                            <button type="button" class="btn btn-outline-light2"><a href="https://seundavidnews.netlify.app" target="blank" style={{textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Visit site</a></button>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><Link to="https://seunauthapp.netlify.app" target="blank" style={{textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Visit site</Link></button>
+                            <button type="button" class="btn btn-outline-light2"><a href="https://seunauthapp.netlify.app" target="blank" style={{textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Visit site</a></button>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ const Portfolio = () => {
                                 <div><FaBootstrap className="me-3" color="#563d7c" size={20}/></div>
                                 <div><IoLogoJavascript color=" #f0db4f" size={20}/></div>
                             </div>
-                            <button type="button" class="btn btn-outline-light2"><Link to="https://www.tocprofessionals.com" target="blank" style={{textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Visit site</Link></button>
+                            <button type="button" class="btn btn-outline-light2"><a href="https://www.tocprofessionals.com" target="blank" style={{textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Visit site</a></button>
                         </div>
                     </div>
                 </div>
