@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Navbar(){
     return(
         <nav class="navbar navbar-expand-lg navbar-dark text-white sticky-top nav-color">

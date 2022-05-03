@@ -13,9 +13,10 @@ a:link{
 
 a:link:hover{
   text-decoration: inherit;
-  color: inherit;
+  color: #400c7b;
   margin: 0;
 }
+
 
 .nav-color{
   background-color: #400c7b !important;
@@ -33,26 +34,17 @@ a:link:hover{
   padding-top: 120px;
 }
 
-.btn-outline-light1 a{
+.btn-outline-light1{
   padding: 12px 20px !important;
   background-color: transparent !important;
   color: #fff !important;
   font-weight: 400 !important;
-  text-decoration: none !important;
   border: 1px solid #fff;
   border-radius: 30px !important;
 }
 
-.btn-outline-light1:hover a{
-  padding: 12px 20px !important;
-  border: 1px solid #400c7b;
-  background-color: #fff !important;
-  color: #400c7b !important;
-  font-weight: 400 !important;
-  text-decoration: none !important;
-  border-radius: 30px !important;
-  transition: .5s;
-  border: none;
+.btn-outline-light1:hover{
+  margin-left: 7px;
 }
 
 .btn-light1{
