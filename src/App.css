@@ -34,17 +34,20 @@ a:hover{
   padding-top: 120px;
 }
 
-.btn-outline-light1{
-  padding: 12px 20px !important;
-  background-color: transparent !important;
-  color: #fff !important;
-  font-weight: 400 !important;
-  border: 1px solid #fff;
-  border-radius: 30px !important;
+
+.hire-me1{
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid white;
+  color:white;
+  text-decoration: none;
 }
 
-.btn-outline-light1:hover{
-  margin-left: 7px;
+.hire-me1:hover{
+  background-color: white;
+  color: #400c7b;
+  transition: .5s;
 }
 
 .btn-light1{
@@ -136,14 +139,23 @@ a:hover{
   font-weight: 400;
 }
 
-/* .btn-outline-light2{
-  padding: 12px 20px !important;
-  color: #fff !important;
-  font-weight: 400 !important;
-  text-decoration: none !important;
-  border-radius: 30px !important;
+
+.hire-me{
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  background-color: #400c7b;
+  color:white;
+  text-decoration: none;
+}
+
+.hire-me:hover{
+  background-color: #fff;
+  color: #400c7b;
   border: 1px solid #400c7b;
-} */
+  transition: .5s;
+}
 
 .form-font{
   color: #400c7b;
@@ -155,7 +167,7 @@ a:hover{
   border: 1px solid #dbdada;
 }
 
-/* .btn-outline-light3{
+.btn-outline-light3{
   padding: 12px 20px !important;
   background-color: #400c7b !important;
   color: #fff !important;
@@ -173,7 +185,7 @@ a:hover{
   text-decoration: none !important;
   border-radius: 30px !important;
   transition: .5s;
-} */
+}
 
 .footer{
   width: 100%;

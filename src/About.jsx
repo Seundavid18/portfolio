@@ -85,7 +85,7 @@ const About = () => {
     useEffect(() => {
         window.onscroll = function (){
             setInterval(function(){
-                percent.forEach((percentage, key) => {
+                percent.forEach((percentage) => {
                     const newSkillBar = {
                         opacity: 1,
                         width: `${percentage}`,
