@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Slabo+27px&display=swap');
+*{
+  font-weight: 300px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: none;
+  margin: 0;
+}
+
+.nav-color{
+  background-color: #400c7b !important;
+}
+
+.hero{
+  width: 100%;
+  height: 550px;
+  background-image: url(./Images/2019_Purple_Abstract_4K_HD_Design_1366x768.jpg);
+  background-size: cover;
+  border-radius: 0 0 20% 20%;
+}
+
+.hero-padding{
+  padding-top: 120px;
+}
+
+.btn-outline-light1 a{
+  padding: 12px 20px !important;
+  background-color: transparent !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border: 1px solid #fff;
+  border-radius: 30px !important;
+}
+
+.btn-outline-light1:hover a{
+  padding: 12px 20px !important;
+  border: 1px solid #400c7b;
+  background-color: #fff !important;
+  color: #400c7b !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+  transition: .5s;
+  border: none;
+}
+
+.btn-light1 a{
+  padding: 12px 20px !important;
+  background: #fff !important;
+  color: #400c7b !important;
+  text-decoration: none;
+  border-radius: 30px !important;
+}
+
+.about-header{
+  color: rgb(64, 12, 123);
+}
+
+.about-flex{
+  max-width: 550px;
+  height: auto;
+}
+
+.about-font{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(126, 126, 126);
+  line-height: 30px;
+}
+
+.about-font1{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(126, 126, 126);
+}
+
+.skill-image{
+  max-width: 100%;
+  height: auto;
+  background-image: url(./Images/3d-render-abstract-color-minimalistic-background-d-SNK5K4C.jpg);
+  background-size: cover;
+}
+
+.skill-image-overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.progress-line{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line span{
+  height: 100%;
+  width: 0;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .9s;
+}
+
+.service-card{
+  max-width: 350px;
+  height: auto;
+  background-image: url(./Images/purple-abstraction-rectangles-rhombuses-squares-pink-abstract-background.jpg);
+  background-size: cover;
+  border-radius: 25px;
+  box-shadow: 0 0 6px rgb(230, 219, 219);
+}
+
+.service-card-overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.911);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.service-font{
+  font-size: 18px;
+  list-style: 25px;
+  color: #818181;
+}
+
+.portfolio-font{
+  font-size: 18px;
+  color: #818181;
+  font-weight: 400;
+}
+
+.btn-outline-light2 a{
+  padding: 12px 20px !important;
+  background-color: #400c7b !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+}
+
+.btn-outline-light2:hover a{
+  padding: 12px 20px !important;
+  border: 1px solid #400c7b;
+  background-color: #fff !important;
+  color: #400c7b !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+  transition: .5s;
+}
+
+.form-font{
+  color: #400c7b;
+}
+
+.contact-us-form-message{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #dbdada;
+}
+
+.btn-outline-light3{
+  padding: 12px 20px !important;
+  background-color: #400c7b !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+}
+
+.btn-outline-light3:hover{
+  padding: 12px 20px !important;
+  border: 1px solid #400c7b;
+  background-color: #fff !important;
+  color: #400c7b !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+  transition: .5s;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  background: #152136;
+  padding: 30px 20px;
+  color: #bebebe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.footer-copy{
+  width: auto;
+  height: auto;
+  background: #1c2940;
+  align-items: center;
+  background-color: #1c2940;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
