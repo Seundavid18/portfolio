@@ -50,7 +50,7 @@ const Contact = () => {
                                     </div>
 
                                     <div className="text-center pt-3">
-                                    <button type="submit"  class="btn btn-outline-light3" style={{maxWidth: "100%"}}>Send</button> 
+                                    <button type="submit"  class="btn btn-outline-light3" style={{maxWidth: '100%', textDecoration: 'none', color: '#400c7b', border: '1px solid #400c7b', padding: '12px 20px', borderRadius: '30px', fontWeight: '500'}}>Send</button> 
                                     </div>
 
                                 </form>
