@@ -5,98 +5,21 @@ import {BiPhoneCall} from 'react-icons/bi'
 
 const About = () => {
 
-    const data = [
-        {
-            id: "1",
-            skill: "HTML",
-            percentage: "90%"
-        },
+   
 
-        {
-            id: "2",
-            skill: "CSS",
-            percentage: "85%"
-        },
-
-        {
-            id: "3",
-            skill: "JAVASCRIPT",
-            percentage: "80%"
-        },
-
-        {
-            id: "4",
-            skill: "REACT JS",
-            percentage: "85%"
-        },
-
-        {
-            id: "5",
-            skill: "NODE JS",
-            percentage: "70%"
-        },
-
-        {
-            id: "6",
-            skill: "EXPRESS JS",
-            percentage: "72%"
-        },
-
-        {
-            id: "7",
-            skill: "UI/UX",
-            percentage: "75%"
-        },
-    ]
-
-    const percent = [
+    // const [scroll, setScroll] = useState ()
+    
         
-
-            '90%',
+    //         setTimeout(function(){
+    //             window.onscroll = function (){
+    //                 const newScroll = {
+    //                     opacity: 1,
+    //                 }
+    //                 setScroll(newScroll)
+    //             }
+    //         }, 3000)   
         
-
-        
-             '85%',
-        
-
-        
-            '80%',
-        
-
-        
-             '85%',
-        
-
-        
-             '70%',
-        
-
-        
-             '72%',
-        
-
-        
-             '75%'
-
-    ]
-
-
-    const [skillBar, setSkillBar] = useState ()
-    useEffect(() => {
-        window.onscroll = function (){
-            setInterval(function(){
-                percent.forEach((percentage) => {
-                    const newSkillBar = {
-                        opacity: 1,
-                        width: `${percentage}`,
-                    }
-                    console.log(newSkillBar)
-                    setSkillBar(newSkillBar)
-                })
-                
-            }, 1000)   
-        }
-    }, [setSkillBar])
+    
     
        
     
@@ -129,22 +52,78 @@ const About = () => {
                                 <h6>
                                     HTML, CSS, Bootstrap, Javascript, React, Node.js, Express.js and more....
                                 </h6>
-                                
-                                {data.map((skills, bar) => {
-                                    
-                                    const skill = `${skills.skill}`    
-                                    const percentage = `${skills.percentage}`                                
-                                    return( 
-                                        <div key={bar.id} className="bar pt-3 pb-3">
+
+                                        <div className="bar pt-3 pb-3">
                                             <div className="info">
-                                                <h5 style={{fontSize: '14px'}}>{skill}
-                                                    <span className="float-end">{percentage}</span>
+                                                <h5 style={{fontSize: '14px'}}>HTML
+                                                    <span className="float-end">90%</span>
                                                 </h5>
                                             </div>
-                                            <div className="progress-line"><span style={skillBar}></span></div>
-                                        </div>  
-                                    )
-                                })}  
+                                            <div className="progress-line1"><span className="html"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>CSS
+                                                    <span className="float-end">85%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line2"><span className="css"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>JAVASCRIPT
+                                                    <span className="float-end">80%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line3"><span className="javascript"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>REACT JS
+                                                    <span className="float-end">85%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line4"><span className="react"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>UI/UX
+                                                    <span className="float-end">75%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line5"><span className="ui-ux"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>WORDPRESS
+                                                    <span className="float-end">81%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line6"><span className="wordpress"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>NODE JS
+                                                    <span className="float-end">73%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line7"><span className="node"></span></div>
+                                        </div>   
+
+                                        <div className="bar pt-3 pb-3">
+                                            <div className="info">
+                                                <h5 style={{fontSize: '14px'}}>EXPRESS JS
+                                                    <span className="float-end">75%</span>
+                                                </h5>
+                                            </div>
+                                            <div className="progress-line8"><span className="express"></span></div>
+                                        </div>   
                             </div>    
                         </div>
                     </div>

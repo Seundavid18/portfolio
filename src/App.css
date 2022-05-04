@@ -94,20 +94,245 @@ a:hover{
   padding: 20px;
 }
 
-.progress-line{
+.progress-line1{
   width: 100%;
   height: 5px;
   background: #adadad;
   position: relative;
 }
 
-.progress-line span{
+.progress-line1 span{
   height: 100%;
-  width: 0;
+  width: 90%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
-  transition: .9s;
+  transition: .5s;
+  scroll-behavior: inherit;
+}
+
+.progress-line2{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line2 span{
+  height: 100%;
+  width: 85%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line3{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line3 span{
+  height: 100%;
+  width: 80%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line4{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line4 span{
+  height: 100%;
+  width: 85%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line5{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line5 span{
+  height: 100%;
+  width: 75%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line6{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line6 span{
+  height: 100%;
+  width: 81%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line7{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line7 span{
+  height: 100%;
+  width: 73%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line8{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line8 span{
+  height: 100%;
+  width: 75%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.html{
+  width: 90%;
+  animation: html 5s;
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+.css{
+  width: 85%;
+  animation: css 5s;
+}
+
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+.javascript{
+  width: 80%;
+  animation: javascript 5s;
+}
+
+@keyframes javascript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+.react{
+  width: 85%;
+  animation: react 5s;
+}
+
+@keyframes react {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+.ui-ux{
+  width: 75%;
+  animation: ui-ux 5s;
+}
+
+@keyframes ui-ux {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+.wordpress{
+  width: 81%;
+  animation: wordpress 5s;
+}
+
+@keyframes wordpress {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 81%;
+  }
+}
+
+.node{
+  width: 73%;
+  animation: node 5s;
+}
+
+@keyframes node {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 73%;
+  }
+}
+
+.express{
+  width: 75%;
+  animation: express 5s;
+}
+
+@keyframes express {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
 }
 
 .service-card{
