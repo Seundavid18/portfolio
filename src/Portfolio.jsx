@@ -12,7 +12,7 @@ import {Link} from 'react-router-dom'
 
 const Portfolio = () => {
     return(
-        <section className="pt-5 pb-5" id="portfolio">
+        <section className="pt-5 pb-5 bg-white" id="portfolio">
             <div className="container">
                 <h1 className="text-center fs-2 fw-bold about-header pt-4 pb-4">My Portfolio</h1>
                 <div className="d-lg-flex flex-nowrap gap-5 pt-5 pb-5">

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Hero() {
     return(
-        <section className="pb-5" id="home">
+        <section className="pb-5 bg-white" id="home">
             <div className="hero">
                 <div className="container">
                     <div className="hero-padding">

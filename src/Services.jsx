@@ -36,7 +36,7 @@ function Services(){
         },
     ]
     return(
-        <section className="pt-5 pb-5" id="services">
+        <section className="pt-5 pb-5 bg-white" id="services">
             <div className="container">
             <h1 className="text-center fs-2 fw-bold about-header pt-4 pb-5">Services</h1>
                 <div className="row row-cols-lg-4 row-cols-1 gy-4">

@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.min.js";
+import { GlobalStyle } from './component/GlobalStyle'
 import Navbar from './Navbar';
 import Hero from './Hero'
 import About from './About'
@@ -12,6 +13,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div>
+      <GlobalStyle />
       <Navbar />
       <Hero />
       <About />
